@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1</title>
+</head>
+<body>
+    <header>
+        <h1 style="color: blueviolet;">
+            Mastering HTML TAGS:A Guide to <strong style="color: brown;">80</strong> Essential Tags
+        </h1>
+            <nav style="text-align: right;">
+                <a href="aboutme.html">aboutme</a>  |   <a href="https://www.w3schools.com">formoreinfo</a>
+            </nav>
+        <hr>
+        <p>
+            <strong>Welcome!</strong>In this guide, I will introduce you to <q>80</q> powerful HTML tags, breaking down exactly what they do and showing you how to code them step-by-step, and just to remind you, HTML is not a <s>programming language</s> but a <strong>markup language</strong>.
+        </p>
+    </header>
+<main>
+    <dt style="color: blueviolet;"> If a website were a house, what role do HTML tags play?</dt><dt>HTML tags are the foundational building blocks of a webpage, acting as hidden keywords wrapped in angle brackets (< >) that tell your   web browser exactly how to structure and display content like text, images, and links. For more information <a href="https://www.w3schools.com"><em>click here</em></a> or watch <a href="https://youtube.com"> tutorials</a>.</dt>
+   </main>
+<section id="Types of Tags">
+   <h2 style="color: brown;;">The Core Families of HTML Tags</h2> 
+   <p>
+        In this section, I will break down the different types of HTML tags and explore how they function together. Listed below are the different types of tags.
+    </p>
+   <dl>
+        <li>
+            <dt><strong>Document structure Tags:</strong></dt><dd>These tags build the skeleton of every web page. Think of them as the foundation and frame of a house. On a new page on your visual code, press <kbd>Shift</kbd>1, it will give you the Document structure tags. They are majorly used for initialization.</dd>
+        </li>
+         <li>
+            <dt><strong>List Tags</strong></dt><dd>Lists group related items. Browsers add bullets, numbers and indentation automatically. Examples of list tags are,  an unordered list, shown with bullets. Use it when the order does not matter, an ordered list, shown with numbers. Use it when order matters (steps, rankings), a description list, a set of terms with their meanings, e.t.c.</dd>
+        </li>
+        <li>
+            <dt><strong>Text formatting and semantic Tags</strong></dt><dd>These change how a piece of text looks and tell the browser what it means. Many look the same on screen. For example strong and b (for bold) are both bold, but they mean different things to screen readers and search engines.</dd>
+        </li>
+        <li>
+            <dt><strong>Form Tags</strong></dt><dd>Forms collect information from visitors (login, sign-up, search, contact). The browser sends the data to a server when the form is submitted. Examples are, form, label, input, select and so on. Note! all the examples are paired tags.</dd>
+        </li>
+        <li>
+            <dt><strong>Table Tags</strong></dt><dd>Tables show data in rows and columns (schedules, price lists, results). Do not use tables for page layout. Examples are, table, caption, thread, and so on. Note! all the examples are paired tags.</dd>
+        </li>
+        <li>
+            <dt><strong>Links and media tags</strong></dt><dd>These tags connect pages together and bring in pictures, sound, video and graphics. Examples are, a, img, picture, figure, source and so on. Note! all the examples are paired tags.</dd>
+        </li>
+   </dl>
+   <!-- to form a table. the tag table is use to carry the whole body. thead works for the heading why tbody works for the body of the table. tr is use to input what we want to put inside each row. th is use to input what we want to put inside the row of the header why td is use to input the data contained in the body  -->
+   <table style="border-collapse: collapse;">
+        <thead>
+          <tr>
+            <th style="color: blueviolet; padding: 10px 20px; border: 1px solid black;">Tag</th>
+            <th style="color: blueviolet; padding: 10px 20px; border: 1px solid black;">Description</th>
+            <th style="color: blueviolet; padding: 10px 20px; border: 1px solid black;">Example</th>
+          </tr>
+        </thead>
+        <tbody>
+            <!-- &it and &gt is use to represent < and > sign -->
+            <tr>
+                <td style="padding: 10px 20px; border: 1px solid black;">(h1-h6)</td>
+                <td style="padding: 10px 20px; border: 1px solid black;">Headings Of various levels.</td>
+                <td style="padding: 10px 20px; border: 1px solid black;">&lt; h1 &gt; I am the biggest header &lt; /h1 &gt;</td>
+            </tr>
+            <tr>
+                <td style="padding: 10px 20px; border: 1px solid black;">p</td>
+                <td style="padding: 10px 20px; border: 1px solid black;">Text Paragraph</td>
+                <td style="padding: 10px 20px; border: 1px solid black;">&lt; p &gt; I am used to create paragraph &lt; /p &gt;</td>
+            </tr>
+            <tr>
+               <td style="padding: 10px 20px; border: 1px solid black;">ol</td>
+               <td style="padding: 10px 20px; border: 1px solid black;">Ordered List</td>
+               <td style="padding: 10px 20px; border: 1px solid black;">&lt; ol &gt;&lt; li &gt;Use me when order matters&lt; /li &gt;&lt; /ol &gt;</td>
+            </tr>
+            <tr>
+                 <td style="padding: 10px 20px; border: 1px solid black;">ul</td>
+               <td style="padding: 10px 20px; border: 1px solid black;">Unordered List</td>
+               <td style="padding: 10px 20px; border: 1px solid black;">&lt; ol &gt;&lt; li &gt;Use me when order does matters&lt; /li &gt;&lt; /ol &gt;</td>
+            </tr>
+            <tr>
+               <td style="padding: 10px 20px; border: 1px solid black;">dl</td>
+               <td style="padding: 10px 20px; border: 1px solid black;">Description List</td>
+               <td style="padding: 10px 20px; border: 1px solid black;">&lt; ol &gt;&lt; li &gt;Use me when description matters most&lt; /li &gt;&lt; /ol &gt;</td>
+            </tr>
+            <tr>
+               <td style="padding: 10px 20px; border: 1px solid black;">em/i</td>
+               <td style="padding: 10px 20px; border: 1px solid black;">Show Italic</td>
+               <td style="padding: 10px 20px; border: 1px solid black;">&lt; em &gt; I am use to stress emphasis by initializing the word&lt; /em &gt;</td> 
+            </tr>
+            <tr>
+              <td style="padding: 10px 20px; border: 1px solid black;">a</td>
+               <td style="padding: 10px 20px; border: 1px solid black;">A hyperlink</td>
+               <td style="padding: 10px 20px; border: 1px solid black;">&lt; a href="link" &gt; when used with href attribute, it can be use to point to site, file e.t.c &lt; /a &gt;</td>   
+            </tr>
+            <tr>
+               <td style="padding: 10px 20px; border: 1px solid black;">q</td>
+               <td style="padding: 10px 20px; border: 1px solid black;">A short inline quotation</td>
+               <td style="padding: 10px 20px; border: 1px solid black;">&lt;q&gt; I am used to add quotation &lt; /q &gt;</td>
+            </tr>
+            <tr>
+               <td style="padding: 10px 20px; border: 1px solid black;">s</td>
+               <td style="padding: 10px 20px; border: 1px solid black;">strikethrough for information that is no longer correct, like an old price</td>
+               <td style="padding: 10px 20px; border: 1px solid black;">&lt;q&gt; I am used to strike incorrect words &lt; /s &gt;</td>
+            </tr>
+            <tr>
+               <td style="padding: 10px 20px; border: 1px solid black;">strong/b</td>
+               <td style="padding: 10px 20px; border: 1px solid black;">Strong importance/Shown bold</td>
+               <td style="padding: 10px 20px; border: 1px solid black;">&lt;q&gt; I am used to enbolden words &lt; /s &gt;</td>
+            </tr>
+            <tr>
+               <td style="padding: 10px 20px; border: 1px solid black;">header</td>
+               <td style="padding: 10px 20px; border: 1px solid black;">Usually located at the top area of a page or of a section. Usually holds a logo, title and menu.</td>
+               <td style="padding: 10px 20px; border: 1px solid black;">&lt;header&gt; I can hold your logo, title and menu&lt; /header &gt;</td> 
+            </tr>
+            <tr>
+               <td style="padding: 10px 20px; border: 1px solid black;">table</td>
+               <td style="padding: 10px 20px; border: 1px solid black;">The container for the whole table.</td>
+               <td style="padding: 10px 20px; border: 1px solid black;">&lt;table&gt;I am used for making tables in HTML page&lt;/table&gt;</td> 
+            </tr>
+            <tr>
+               <td style="padding: 10px 20px; border: 1px solid black;">thead</td>
+               <td style="padding: 10px 20px; border: 1px solid black;">Use for grouping the header row(s) at the top.</td>
+               <td style="padding: 10px 20px; border: 1px solid black;">&lt;thead&gt;I take care of the header of the table&lt;/thead&gt;</td>
+            </tr>
+               <td style="padding: 10px 20px; border: 1px solid black;">th</td>
+               <td style="padding: 10px 20px; border: 1px solid black;">a header cell. Bold and centred by default. Use scope="col" or scope="row" to help screen readers.</td>
+               <td style="padding: 10px 20px; border: 1px solid black;">&lt;th&gt;I am placed inside the thead to ensure the header words are bolden and centerlized&lt;/th&gt;</td>
+            <tr>
+               <tr>
+               <td style="padding: 10px 20px; border: 1px solid black;">tbody</td>
+               <td style="padding: 10px 20px; border: 1px solid black;">It is use to groups the main body rows.</td>
+               <td style="padding: 10px 20px; border: 1px solid black;">&lt;tbody&gt;I take care of the body of the table&lt;/tbody&gt;</td>
+            </tr>
+            <tr>
+               <td style="padding: 10px 20px; border: 1px solid black;">td</td>
+               <td style="padding: 10px 20px; border: 1px solid black;">Table data. It represents a data cell within a table.</td>
+               <td style="padding: 10px 20px; border: 1px solid black;">&lt;td&gt;I am used to input the data within the table&lt;/td&gt;</td>
+            </tr>
+            <tr>
+               <td style="padding: 10px 20px; border: 1px solid black;">tfoot</td>
+               <td style="padding: 10px 20px; border: 1px solid black;">It is use to groups the footer row(s), like totals.</td>
+               <td style="padding: 10px 20px; border: 1px solid black;">&lt;tfoot&gt;I take care of the foot of the table&lt;/tfoot&gt;</td> 
+            </tr>
+            <tr>
+               <td style="padding: 10px 20px; border: 1px solid black;">caption</td>
+               <td style="padding: 10px 20px; border: 1px solid black;">It is placed just after the &lt; table&gt;. It is used for caption</td>
+               <td style="padding: 10px 20px; border: 1px solid black;">&lt;caption&gt;I am used to add caption to table &lt;/caption&gt;</td> 
+            </tr>
+            <tr>
+               <td style="padding: 10px 20px; border: 1px solid black;">sub</td>
+               <td style="padding: 10px 20px; border: 1px solid black;">It is used to lower text below the line</td>
+               <td style="padding: 10px 20px; border: 1px solid black;">&lt;sub&gt;I am used to <sub>lower</sub> text&lt;/sub&gt;</td>
+            </tr>
+            <tr>
+            <td style="padding: 10px 20px; border: 1px solid black;">sup</td>
+               <td style="padding: 10px 20px; border: 1px solid black;">It is used to raise text above the line</td>
+               <td style="padding: 10px 20px; border: 1px solid black;">&lt;sup&gt;I am used to <sup>raise</sup> text&lt;/sup&gt;</td>
+            </tr>
+        </tbody>
+
+            
+    </table>
+</section>
+</body>
+</html>
